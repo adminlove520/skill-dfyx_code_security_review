@@ -23,6 +23,16 @@
 
 ### 安装
 
+#### OpenClaw / ClawdHub (推荐)
+```bash
+# 通过 ClawDHub 安装
+npx clawdhub install dfyx_code_security_review
+
+# 或手动安装
+npx openclaw skills add https://github.com/adminlove520/skill-dfyx_code_security_review
+```
+
+#### Claude Code / Trae
 将本 Skill 复制到 AI 客户端的 skills 目录：
 
 ```bash
@@ -31,6 +41,11 @@ cp -r dfyx_code_security_review ~/.claude/skills/
 
 # Trae
 # 将文件夹复制到 Trae 的 skills 目录（具体路径取决于 Trae 版本）
+```
+
+#### Git 直接克隆
+```bash
+git clone git@github.com:adminlove520/skill-dfyx_code_security_review.git
 ```
 
 ### 触发方式
